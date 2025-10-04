@@ -26,7 +26,7 @@ This project was completed as a **Solo Project** as part of the **Fullstack Care
 
 ## 📸 Preview
 
-![oldagram screenshot](screenshot.png)
+![oldagram screenshot](screenShot.png)
 
 ---
 
