@@ -1,19 +1,43 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
              <div class="container">
                 <img src="images/logo.png" alt="logo" class="logo">
-                <img src="images/user-avatar.png" alt="user avatar" class="user-avatar">
+                <img src="images/user-avatar.png" alt="user avatar" class="avatar">
              </div>
         </header>
        
         <section>
              <div class="container">
+                <div class="publisher-info">
+                     <img src="images/avatar-vangogh.jpg" alt="avatar-vangogh" class="avatar">
+                     <div class="text">
+                        <p class="text-bold">Vincent van Gogh</p>
+                        <p class="text-small">Zudert, Netherlands</p>
+                     </div>
+                    
+                </div>
 
+                <img src="images/post-vangogh.jpg" alt="Painting by Vincent van Gogh" class="post-van">
              </div>
+        </section>
+
+        <section class="sec-three">
+            <div class="container">
+                <div class="icons">
+                    <img id="like-el" src="images/icon-heart.png" alt="Like icon">
+                    <img src="images/icon-comment.png" alt="comment icon">
+                    <img src="images/icon-dm.png"  alt="icon-dm" ></img>
+                </div>
+                <p class="text-bold"><span id="likes-number-el">0</span> likes</p>
+                <p><span class="text-bold">vincey1853</span> just took a few mushrooms lol</p>
+            </div>
         </section>
        
         <script src="index.js"></script>
